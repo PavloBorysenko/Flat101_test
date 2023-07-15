@@ -218,7 +218,7 @@ class FlatCustomPost implements FlatPostData{
 		} else {
 			$meta_data = $cached_data;
 		}
-		
+		/*Ability to process post data for custom changesl*/
 		return apply_filters('flat101_custom_post_type_get_data', $meta_data, $post_id, $this->post_slug);
 	}
 
