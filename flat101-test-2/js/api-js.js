@@ -1,6 +1,6 @@
 'use strict';
 
-function fetchPostData(APIUrl) {
+function flat101FetchPostData(APIUrl) {
   jQuery.ajax({
     url: APIUrl,
     method: 'GET',
@@ -18,6 +18,6 @@ function fetchPostData(APIUrl) {
 jQuery(document).ready(function() {
     if ('undefined' != typeof flat101_post_data) {
 	console.log(flat101_post_data);
-	fetchPostData(flat101_post_data.api_url + flat101_post_data.post_id);
+	flat101FetchPostData(flat101_post_data.api_url + flat101_post_data.post_id);
     }
 });
