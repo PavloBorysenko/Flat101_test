@@ -47,5 +47,6 @@ $meta_fields = array(
 	'flat101_description' => 'Descripción',
 );
 
+/* object initialization */
 $flat_post_tienda = new FlatCustomPost($post_slug, $labels, $meta_fields);
 new FlatCustomApi($flat_post_tienda);
