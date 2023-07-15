@@ -35,7 +35,7 @@ class FlatCustomPost implements FlatPostData{
 	/**
 	 * slug for custom post type
 	 * 
-	 * @var strinf
+	 * @var string
 	 */
 	private $post_slug = '';
 	
