@@ -21,7 +21,7 @@ require_once PARTE2_PATH . 'classes/custom-post.php';
 require_once PARTE2_PATH . 'classes/custom-api.php';
 
 
-/* data setting */
+/* data setting. The ability to create many different types of posts with different metadata */
 $post_slug = 'tienda';
 
 $labels = array(
